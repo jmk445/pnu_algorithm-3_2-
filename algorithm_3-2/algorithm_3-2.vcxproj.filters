@@ -24,5 +24,11 @@
     <ClCompile Include="pa03.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="pa04.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pa04_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
