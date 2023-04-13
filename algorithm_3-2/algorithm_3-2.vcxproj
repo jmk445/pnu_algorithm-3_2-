@@ -142,6 +142,7 @@
     <ClCompile Include="pa02.cpp" />
     <ClCompile Include="pa04.cpp" />
     <ClCompile Include="pa04_2.cpp" />
+    <ClCompile Include="pa05.cpp" />
     <ClCompile Include="sort.cpp" />
     <ClCompile Include="pa03.cpp" />
   </ItemGroup>
