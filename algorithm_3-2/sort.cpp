@@ -1,4 +1,4 @@
-/*
+
 #include<iostream>
 
 using namespace std;
@@ -25,7 +25,7 @@ void swap(int* val1, int* val2) { // 스왑 함수
 7
 - 10
 1
-
+*/
 
 int InsertionSort(int* arr,int n,int k) {
     int i, j;
@@ -92,17 +92,17 @@ void heapify(int arr[], int len, int parent) { //인덱스를 0부터 카운트하는 경우
     if (r < len && arr[r] < arr[min]) {
         min = r;
     }
-    왼쪽 자식과 오른쪽 자식과 비교해서
-    더 큰 값의 인덱스를 largest에 넣는 과정
+    /*왼쪽 자식과 오른쪽 자식과 비교해서
+    더 큰 값의 인덱스를 largest에 넣는 과정*/
 
     if (min != parent) {
         swap(&arr[parent], &arr[min]);
         heapify(arr, len, min);
     }
-큰 값이 바뀐경우 스왑을 하고 순환호출을 해서
- 바뀐 인덱스에 대해서 한버더 heapify
+    /*큰 값이 바뀐경우 스왑을 하고 순환호출을 해서
+     바뀐 인덱스에 대해서 한버더 heapify*/
 
-
+}
 int* heapSort(int arr[], int len,int k) {
     int cnt = 0;
     for (int i = len / 2 - 1; i >= 0; i--) {
